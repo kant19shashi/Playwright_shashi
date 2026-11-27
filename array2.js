@@ -1,7 +1,9 @@
 var empname =["shashi","Manoj","Dinesh","Sanjay","Mihika"];
 console.log(empname[1]);
-console.log(empname.indexOf("Manioj"))
+console.log(empname.indexOf("Manoj"))
 empname.push("mahesh")
+console.log(empname)
+empname.unshift("Naveen")
 console.log(empname)
 console.log(empname.includes("Mihika"));
 var a=empname.includes("shashi")
